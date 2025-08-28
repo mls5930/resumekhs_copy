@@ -134,7 +134,7 @@ export default function Page() {
                     <span className="text-zinc-500">[졸업]</span>
                   </div>
                   <div className="mt-1 text-zinc-600">
-                    한림성심대학교(3년제) · 환경공학과
+                    한림대학교(4년제) · 환경공학과
                   </div>
                 </li>
 
