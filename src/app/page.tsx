@@ -25,7 +25,7 @@ export default function Page() {
               {/* 배지: 맨 위 */}
               <div>
                 <span className="inline-block rounded-md bg-zinc-100 px-3 py-1 text-[14px] font-extrabold text-zinc-900">
-                  Front-End Developer
+                  Technician
                 </span>
               </div>
 
@@ -64,17 +64,19 @@ export default function Page() {
             {/* About (왼쪽) */}
             <section className="md:col-span-2">
               <h2 className="mb-2 text-[12px] font-bold leading-6">
-                사용자의 여정을 고민하며, 더 나은 경험을 설계하는 프론트엔드
-                개발자입니다.
+                꼼꼼함과 책임감으로 장비와 시스템을 관리하며, 안정적인 업무
+                환경을 만드는 기술자입니다.
               </h2>
 
               <p className="text-[12px] leading-7 text-zinc-800 tracking-tight">
-                저는 단순히 기능을 구현하는 데 그치지 않고, 사용자의 흐름과
-                감정까지 고려한 ‘경험’을 만드는 프론트엔드 개발자입니다. 화면의
-                구성, 인터랙션, 퍼포먼스 하나하나가 사용자의 여정에 어떤 영향을
-                줄지 고민하며, 더 직관적이고 즐거운 사용 경험을 설계합니다.
-                기술의 깊이와 디자인 감각을 함께 갖춘 개발자로서, 제품의 가치를
-                사용자에게 자연스럽게 전달하는 데 집중하고 있습니다.
+                저는 문제를 빠르게 파악하고 정확하게 해결하는 것을 중요하게
+                생각합니다. 장비나 시스템이 안정적으로 운영될 때 비로소 사용자가
+                불편함 없이 일할 수 있다고 믿기 때문입니다. 환경회사에서의 장비
+                관리 경험을 통해 작은 이상도 놓치지 않고 점검하는 습관을
+                길렀으며, OA 유지보수 업무에서도 이러한 꼼꼼함과 책임감을
+                바탕으로 안정적인 지원 환경을 제공하겠습니다. 단순한 수리 업무를
+                넘어, 문제의 원인을 분석하고 재발을 방지하는 체계적인 관리로
+                회사의 효율적인 운영에 기여하는 기술자가 되고자 합니다.
               </p>
             </section>
 
@@ -105,6 +107,29 @@ export default function Page() {
               </p>
 
               {/* 회색 콜아웃 박스 */}
+
+              <div className="flex flex-wrap items-center gap-2 text-[12px] leading-6 mt-3">
+                <span className="font-semibold">경일게임 아카데미</span>
+                <span className="rounded-full border border-zinc-300 px-2 py-[2px] text-[11px]">
+                  프론트엔드, 블록체인
+                </span>
+                <span className="ml-auto text-zinc-500">2024.11 - 2025.08</span>
+              </div>
+
+              {/* 상세 서술 */}
+              <p className="mt-2 text-[12px] leading-7 text-zinc-800 tracking-tight">
+                체계적인 교육 과정을 통해 프론트엔드와 블록체인 기술을
+                집중적으로 학습했습니다. React와 Next.js를 기반으로 한 웹
+                애플리케이션 개발, Zustand와 Redux를 활용한 상태 관리, AWS 배포
+                및 데이터베이스 설계·연동까지 실무형 프로젝트 경험을 쌓았습니다.
+                특히 팀 프로젝트를 통해 기획·설계·구현·배포 전 과정을 경험하며,
+                사용자 요구사항을 분석하고 UI/UX를 개선하는 훈련을 받았습니다.
+                또한 블록체인 파트에서는 ERC-20, ERC-1155 토큰 표준과 스마트
+                컨트랙트 설계 및 배포를 직접 실습하여, 서비스 내 보상·인증
+                시스템을 구현할 수 있는 능력을 길렀습니다.
+              </p>
+
+              {/* 회색 콜아웃 박스 */}
               <div className="mt-3 rounded-md bg-zinc-200 p-3 text-[13px] leading-6 text-zinc-700">
                 환경실태 조사 및 데이터 기반 분석 업무를 통해, 문제를 정의하고
                 수치화하여 해결 방안을 도출하는 훈련을 받았습니다. 이러한 경험은
@@ -123,7 +148,7 @@ export default function Page() {
                 <li
                   className="
       relative mb-5 pl-8
-      after:absolute after:left-3 after:top-3 after:h-16 after:w-px after:bg-zinc-500
+      after:absolute after:left-3 after:top-3 after:h-15 after:w-px after:bg-zinc-500
       last:after:hidden
     "
                 >
@@ -134,17 +159,17 @@ export default function Page() {
                     <span className="text-zinc-500">[졸업]</span>
                   </div>
                   <div className="mt-1 text-zinc-600">
-                    한림대학교(4년제) · 환경공학과
+                    한림성심대학교(3년제) · 환경공학과
                   </div>
                 </li>
 
                 {/* 항목 2 */}
                 <li
                   className="
-      relative pl-8
-      after:absolute after:left-3 after:top-3 after:bottom-0 after:w-px after:bg-zinc-300
-      last:after:hidden
-    "
+    relative mb-5 pl-8
+    after:absolute after:left-3 after:top-3 after:bottom-0 after:w-px after:bg-zinc-500
+    last:after:hidden
+  "
                 >
                   <span className="absolute left-3 top-1.5 h-1.5 w-1.5 -translate-x-1/2 rotate-45 bg-zinc-900" />
                   <div className="font-semibold">
@@ -157,35 +182,42 @@ export default function Page() {
             </section>
 
             {/* Skills — 두 컬럼 리스트 */}
-            <section className="md:col-span-3 mb-30">
-              <h2 className="mb-3 text-lg font-bold">Skills</h2>
+            <section className="md:col-span-3 mb-40">
+              <h2 className="mb-5 text-lg font-bold">Skills</h2>
 
-              <div className="grid grid-cols-2 gap-x-16">
-                {/* 왼쪽 컬럼 */}
-                <ul className="space-y-1 text-[12px] text-zinc-800">
-                  <li>Node.js</li>
-                  <li>TypeScript</li>
-                  <li>React</li>
-                  <li>Solidity</li>
-                  <li>HTML5</li>
-                  <li>CSS 3</li>
-                  <li>TailwindCSS</li>
-                  <li>JavaScript</li>
-                  <li>AWS</li>
+              {/* 위아래 간격(gap-y-4) 추가 */}
+              <div className="grid grid-cols-2 gap-x-16 gap-y-4">
+                {/* 왼쪽 컬럼: 기본 IT 활용 및 장비 이해 */}
+                <ul className="space-y-2 text-[12px] text-zinc-800">
+                  <li>⦁ PC 기본 조립 및 운영체제(Windows 10/11) 설치 경험</li>
+                  <li>⦁ 드라이버 설치 및 주변기기(프린터·스캐너) 연결 지원</li>
+                  <li>⦁ 기초 네트워크 이해(IP주소, 공유기 설정 등)</li>
+                  <li>⦁ 파일/폴더 권한 관리 및 네트워크 공유 설정</li>
+                  <li>⦁ 간단한 오류 해결(부팅 문제, 장치 인식 오류 등)</li>
+                  <li>⦁ 백신 프로그램 설치 및 정기 점검 수행 가능</li>
                 </ul>
 
-                {/* 오른쪽 컬럼 */}
-                <ul className="space-y-1 text-[12px] text-zinc-800">
-                  <li>GitHub</li>
-                  <li>MySQL</li>
-                  <li>Next.js</li>
-                  <li>Vercel</li>
-                  <li>Jest</li>
-                  <li>Redux / Zustand</li>
-                  <li>Axios</li>
-                  <li>Framer Motion</li>
-                  <li>Figma</li>
+                {/* 오른쪽 컬럼: 문서화/소통 및 기초 개발 이해 */}
+                <ul className="space-y-2 text-[12px] text-zinc-800">
+                  <li>
+                    ⦁ MS Office(Word, Excel, PowerPoint) 기본 문서 작성 능력
+                  </li>
+                  <li>⦁ 기기 점검표 및 관리 기록 문서 작성 경험</li>
+                  <li>⦁ GitHub를 통한 파일/문서 버전 관리 경험</li>
+                  <li>⦁ HTML, CSS, JavaScript를 통한 웹 기본 구조 이해</li>
+                  <li>⦁ Node.js 환경 설정 및 간단한 로컬 서버 구축 경험</li>
                 </ul>
+              </div>
+
+              {/* 위 블록과 간격 늘림 (mt-6 → 여유 있는 느낌) */}
+              <div className="mt-6 rounded-md bg-zinc-50 border border-zinc-200 p-3 text-[12px] text-zinc-700">
+                <div className="font-semibold mb-1">현재 배우고 있는 내용</div>
+                <p>
+                  네트워크 관리, PowerShell 기본 명령어, 하드웨어 점검 절차 등
+                  OA 유지보수에 필요한 기초 지식을 꾸준히 학습 중이며, 현장에서
+                  빠르게 적응하고 성장할 수 있도록 실습 중심으로 배우고
+                  있습니다.
+                </p>
               </div>
             </section>
           </div>
@@ -733,7 +765,7 @@ export default function Page() {
               <aside className="md:col-span-2">
                 <div className="relative pl-7">
                   {/* 세로 라인(연한 톤) */}
-                  <span className="pointer-events-none absolute left-[10px] top-2 bottom-[-1100px] w-[1px] bg-gray-500" />
+                  <span className="pointer-events-none absolute left-[10px] top-2 bottom-[-1050px] w-[1px] bg-gray-500" />
                   {/* 시작 다이아 ⬥ */}
                   <span className="pointer-events-none absolute left-[11px] top-2 h-1.5 w-1.5 -translate-x-1/2 rotate-45 bg-black" />
 
@@ -747,7 +779,7 @@ export default function Page() {
                   <dl className="mt-2 space-y-1 text-[12px] leading-5 text-zinc-600">
                     <div className="flex gap-2">
                       <dt className="w-16 shrink-0">개발기간</dt>
-                      <dd>2025.05 - 2025.05 [27일]</dd>
+                      <dd>2025.06 - 2025.07 [32일]</dd>
                     </div>
                     <div className="flex gap-2">
                       <dt className="w-16 shrink-0">사용 기술</dt>
@@ -954,7 +986,7 @@ export default function Page() {
               <aside className="md:col-span-2">
                 <div className="relative pl-7">
                   {/* 세로 라인 (2페이지와 동일 느낌) */}
-                  <span className="pointer-events-none absolute left-[10px] top-2 bottom-[-500px] w-[1px] bg-gray-500" />
+                  <span className="pointer-events-none absolute left-[10px] top-2 bottom-[-400px] w-[1px] bg-gray-500" />
                   {/* 시작 다이아 ⬥ */}
                   <span className="pointer-events-none absolute left-[11px] top-2 h-1.5 w-1.5 -translate-x-1/2 rotate-45 bg-black" />
 
@@ -967,20 +999,16 @@ export default function Page() {
               {/* Right: 내용 */}
               <section className="md:col-span-3 space-y-4">
                 <p className="text-[12px] leading-7 text-zinc-800">
-                  “남에게 피해 주지 말고 살아라”는 부모님의 말씀은 제 삶의
-                  가치관이 되었습니다. 단순히 조용히 지내라는 의미를 넘어,
-                  책임감 있게 행동하고 타인을 배려하는 태도를 배우게 되었습니다.
-                  이런 가치관은 제 성격에도 자연스럽게 녹아들어, 갈등보다는
-                  조율을 선호하고, 상대의 이야기를 잘 듣는 편입니다.
-                  환경회사에서의 업무 역시 책임감과 정확함이 중요한 일이었고,
-                  반복적인 작업 속에서도 꾸준함을 기반으로 신뢰를 쌓을 수
-                  있었습니다. 하지만 성격이 다소 급한 편이라 개발 초기에 구조를
-                  충분히 고민하지 않고 코드를 작성해 어려움을 겪기도 했습니다.
-                  이 경험을 통해 설계와 기록의 중요성을 인식하고, 지금은 작업 전
-                  흐름도나 노트를 작성하며 체계적으로 접근하려 노력하고
-                  있습니다.
+                  “남에게 피해 주지 말라”는 부모님의 말씀은 저의 삶의 기준이
+                  되었습니다. 이 말은 단순히 조용히 살라는 뜻이 아니라, 책임감
+                  있게 행동하고 타인에게 신뢰를 주는 태도로 이어졌습니다.
+                  환경회사에서 근무하며 장비 점검과 데이터 기록 업무를
+                  수행했는데, 작은 실수 하나가 전체 결과에 영향을 미칠 수
+                  있었기에 매 순간 꼼꼼함과 정확함을 유지하려 노력했습니다.
+                  이러한 습관은 OA 유지보수 업무에서도 장비 하나하나를 책임감
+                  있게 관리하는 데 큰 도움이 될 것이라 생각합니다.
                 </p>
-                <p className="text-[12px] leading-7 text-zinc-800">
+                {/* <p className="text-[12px] leading-7 text-zinc-800">
                   또한 ‘말보다 행동이 중요하다’는 신념으로, 새로운 기술은 반드시
                   직접 구현해보며 익히고 있습니다. DOM, React, Node.js, Solidity
                   등을 학습할 때도 예제 → 실습 → 프로젝트 적용의 단계를 반복하며
@@ -988,7 +1016,7 @@ export default function Page() {
                   큰 강점이 되었고, 현재까지 총 4개의 프로젝트를 완수하며 꾸준히
                   성장해왔습니다. 앞으로도 부족한 점은 개선하며, 팀과 함께
                   성장하는 개발자가 되겠습니다.
-                </p>
+                </p> */}
               </section>
             </div>
 
@@ -1011,8 +1039,10 @@ export default function Page() {
                   저는 2021년 11월부터 2024년 3월까지 약 2년 4개월간 환경 전문
                   기업인 청명기연환경에서 근무했습니다. 환경질 측정팀 소속으로,
                   현장에 나가 대기·수질 등을 조사하고, 수집한 시료를 실험실에서
-                  분석해 적합 여부를 판단하는 일을 맡았습니다. 정확성과 책임감이
-                  중요한 업무였기에, 꾸준함과 성실함을 바탕으로 제 역할을
+                  분석해 적합 여부를 판단하는 일을 맡았습니다. 다양한 장비를
+                  다루며 기기 관리, 오류 진단, 측정값 검증, 보고서 작성 등
+                  업무를 수행했습니다. 현장과 실험실 정확성과 책임감이 중요한
+                  업무였기에, 꾸준함과 성실함을 바탕으로 제 역할을
                   수행해왔습니다. 하지만 일을 하며 점차 느낀 것은 세상이 빠르게
                   기술 중심으로 변화하고 있다는 점이었습니다. 특히 AI, 자동화,
                   블록체인 같은 기술이 다양한 분야에 접목되며 산업 구조를 바꾸는
@@ -1021,18 +1051,18 @@ export default function Page() {
                   깊은 인상을 남겼습니다. 시료 측정부터 보고서 작성까지 사람이
                   개입하는 과정이 많았고, ‘어떻게 하면 더 신뢰할 수 있는
                   방식으로 정보를 기록하고 공유할 수 있을까?’라는 고민이
-                  생겼습니다
+                  생겼습니다.
                 </p>
                 <p className="text-[12px] leading-7 text-zinc-800">
                   그 과정에서 저는 블록체인 기술이 가진 불변성과 공개성이 이런
                   문제를 해결할 수 있는 가능성에 주목하게 되었고, 단순한
-                  호기심을 넘어 문제를 기술로 해결하고 싶다는 확신이 생겼습니다.
-                  이것이 제가 개발자의 길을 선택하게 된 결정적인 계기였습니다.
-                  이후 8개월간의 부트캠프 과정에서 HTML, JS, React, Node.js,
-                  Solidity, AWS 등 다양한 기술을 익히며, 프론트엔드와 블록체인
-                  개발의 기반을 다졌습니다. 앞으로는 실제 세계의 데이터를 다뤘던
-                  경험을 바탕으로, 기술을 통해 신뢰성과 투명성을 높이는 시스템을
-                  만들어가는 개발자가 되고자 합니다.
+                  호기심을 넘어 문제를 기술로 해결하고 싶어서 개발자 교육을
+                  듣게되었으며. 이 경험을 통해 장비의 상태를 세밀하게 점검하고,
+                  문제가 발생했을 때 원인을 추적하고 해결하는 능력을 기를 수
+                  있었습니다. OA 장비 점검·유지보수 업무도 이러한 경험과 매우
+                  유사하다고 생각합니다. 실제 세계의 데이터를 다뤘던 경험을
+                  바탕으로, 기술을 통해 신뢰성과 투명성을 높이는 시스템을
+                  만들어가는 사람이 되고자 합니다.
                 </p>
               </section>
             </div>
@@ -1041,10 +1071,10 @@ export default function Page() {
               {/* Left */}
               <aside className="md:col-span-2">
                 <div className="relative pl-7">
-                  <span className="pointer-events-none absolute left-[10px] top-2 bottom-[-300px] w-[1px] bg-gray-500" />
+                  <span className="pointer-events-none absolute left-[10px] top-2 bottom-[-200px] w-[1px] bg-gray-500" />
                   <span className="pointer-events-none absolute left-[11px] top-2 h-1.5 w-1.5 -translate-x-1/2 rotate-45 bg-black" />
                   <h3 className="text-[12px] font-bold text-zinc-800">
-                    3. 배운 만큼 성장하는 개발자
+                    3. 빠른 기술 습득력과 문제 해결력
                   </h3>
                 </div>
               </aside>
@@ -1052,15 +1082,12 @@ export default function Page() {
               {/* Right */}
               <section className="md:col-span-3 space-y-4">
                 <p className="text-[12px] leading-7 text-zinc-800">
-                  개발자 부트캠프에 참여해 약 8개월간 HTML, CSS, JS, Node.js,
-                  React, TypeScript, Solidity 등 다양한 기술을 배웠고, AWS
-                  배포와 TDD 기반 테스트도 경험했습니다. 총 4개의 프로젝트를
-                  진행했으며, 초반 DOM 조작을 배우며 만든 첫 미니 프로젝트,
-                  Node.js 백엔드 중심의 두 번째, React 기반의 세 번째,
-                  블록체인을 기반으로 기업과 협업하여 만든 음악 설문 시스템 MVE
-                  프로젝트 실사용자를 고려한 UI/UX, 보상 기반 구조, 설문 흐름
-                  설계 등 기획부터 구현까지 경험하며 개발자로서 한 걸음씩 성장
-                  중입니다.
+                  비전공자였지만 개발에 관심을 갖고 스스로 PC 환경을 구성하며 웹
+                  개발을 배웠습니다. Node.js, React, AWS 등 다양한 환경 설정과
+                  프로그램 설치, 오류 해결 과정을 직접 경험했습니다. 이 과정에서
+                  시스템의 구조를 이해하고 스스로 문제를 해결하는 습관이
+                  생겼습니다. 새로운 OA 장비나 소프트웨어를 다루더라도 빠르게
+                  적응하고 필요한 설정을 직접 찾아 해결할 수 있습니다.
                 </p>
               </section>
             </div>
@@ -1068,10 +1095,10 @@ export default function Page() {
               {/* Left */}
               <aside className="md:col-span-2">
                 <div className="relative pl-7">
-                  <span className="pointer-events-none absolute left-[10px] top-2 bottom-[-400px] w-[1px] bg-gray-500" />
+                  <span className="pointer-events-none absolute left-[10px] top-2 bottom-[-170px] w-[1px] bg-gray-500" />
                   <span className="pointer-events-none absolute left-[11px] top-2 h-1.5 w-1.5 -translate-x-1/2 rotate-45 bg-black" />
                   <h3 className="text-[12px] font-bold text-zinc-800">
-                    4. 블록체인을 쉽게 만드는 사용자 중심 프론트엔드
+                    4. 사용자 중심의 문제 해결 태도
                   </h3>
                 </div>
               </aside>
@@ -1079,25 +1106,20 @@ export default function Page() {
               {/* Right */}
               <section className="md:col-span-3 space-y-4">
                 <p className="text-[12px] leading-7 text-zinc-800">
-                  교육과정 초반에는 프론트엔드 개발이 단순히 보기 좋은 화면을
-                  만드는 일이라고 생각했습니다. ‘디자인은 디자이너의 영역인데,
-                  개발자가 왜 UI/UX를 고민해야 할까?’라는 의문도 있었습니다.
-                  그러나 프로젝트를 진행하며 실제 사용자와 마주하게 되면서,
-                  프론트엔드 개발은 디자인을 구현하는 것을 넘어, 사용자가 기술을
-                  쉽게 받아들일 수 있도록 돕는 역할이라는 것을 깨달았습니다.
-                  특히 블록체인 기술을 접하며, 기술보다 사용자 친화적인 UI/UX가
-                  대중화의 열쇠라는 점을 실감했습니다. Web3나 지갑 연결처럼
-                  생소한 개념에 부담을 느끼는 사용자를 위해, 복잡한 절차를
-                  최대한 감추고 누구나 쉽게 사용할 수 있는 UI 설계를 목표로
-                  했습니다.
+                  개발을 배우며 깨달은 것은, 기술은 결국 ‘사용자가 편리하게
+                  사용할 수 있어야 한다’는 점이었습니다. OA 유지보수 또한 단순히
+                  장비를 고치는 것이 아니라, 사용자가 불편 없이 업무를 이어갈 수
+                  있도록 돕는 일이라고 생각합니다. 문제 해결 시 사용자 입장에서
+                  원인을 분석하고, 빠르게 대응하며, 문제 발생을 미리 방지하는
+                  예방적 관리에 힘쓰겠습니다.
                 </p>
-                <p className="text-[12px] leading-7 text-zinc-800">
+                {/* <p className="text-[12px] leading-7 text-zinc-800">
                   또한, 사용자의 이탈율과 관련된 UX 연구를 참고하여, 초기 화면
                   렌더링 속도를 줄이고 핵심 정보를 빠르게 전달하는 흐름을 설계한
                   경험도 있습니다. 신기술에만 집중하는 것이 아니라, 기술을
                   사용자에게 어떻게 전달할지를 함께 고민할 수 있는 개발자로
                   성장하고 있습니다.
-                </p>
+                </p> */}
               </section>
             </div>
             {/* --- Cover Letter 본문 (아이템 3) --- */}
@@ -1105,10 +1127,10 @@ export default function Page() {
               {/* Left */}
               <aside className="md:col-span-2">
                 <div className="relative pl-7">
-                  <span className="pointer-events-none absolute left-[10px] top-2 bottom-[-120px] w-[1px] bg-gray-500" />
+                  <span className="pointer-events-none absolute left-[10px] top-2 bottom-[-150px] w-[1px] bg-gray-500" />
                   <span className="pointer-events-none absolute left-[11px] top-2 h-1.5 w-1.5 -translate-x-1/2 rotate-45 bg-black" />
                   <h3 className="text-[12px] font-bold text-zinc-800">
-                    5. 함께하는 개발자, 신뢰받는 팀원이 되고 싶습니다
+                    5. 함께 성장하는 신뢰받는 구성원
                   </h3>
                 </div>
               </aside>
@@ -1116,13 +1138,13 @@ export default function Page() {
               {/* Right */}
               <section className="md:col-span-3 space-y-4">
                 <p className="text-[12px] leading-7 text-zinc-800 mb-20">
-                  개발은 혼자서가 아니라 함께 만들어가는 작업이라는 점에서,
-                  피해를 주지 않겠다는 삶의 태도는 큰 장점이 된다고 믿습니다.
-                  주어진 역할을 책임감 있게 해내고, 팀에 보탬이 되는 개발자가
-                  되겠습니다. 앞으로 다가올 해커톤, 그리고 그 이후의 프로젝트들
-                  속에서도 저는 꾸준히 배우고 나아가겠습니다. ‘믿고 함께할 수
-                  있는 사람’이라는 말을 들을 수 있는 개발자가 되는 것이 제
-                  목표입니다.
+                  회사는 혼자서가 아니라 함께 만들어가는 공간이라고 생각합니다.
+                  혼자가 아니라 함께 만들어가는 작업이라는 점에서, 피해를 주지
+                  않겠다는 삶의 태도는 큰 장점이 된다고 믿습니다. 주어진 역할을
+                  책임감 있게 해내고, 팀에 보탬이 되는 기술자가 되겠습니다.
+                  이후의 프로젝트들 속에서도 저는 꾸준히 배우고 나아가겠습니다.
+                  ‘믿고 함께할 수 있는 사람’이라는 말을 들을 수 있는 기술자 되는
+                  것이 제 목표입니다.
                 </p>
               </section>
             </div>
